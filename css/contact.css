@@ -1,0 +1,212 @@
+/*********************************
+        GENERALITIES
+**********************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    } 
+
+html, body {
+    height: 100%;
+}
+
+body {
+	margin: 0;
+	background-color: #000;
+	color: #FFF;
+    font-family: 'courier_newregular';
+	font-size: 12px;
+    overflow: hidden;
+}
+
+section, div, ul {
+	display: block;
+}
+
+header li {
+    display: block;
+    
+}
+
+
+/*********************************
+        WHOLE PAGE LAYOUT
+**********************************/
+
+.container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*********************
+        HEADER
+**********************/
+
+/* header padding */
+header {
+    position: absolute;
+    padding: 0 30px;
+    top: 0;
+    left: 0;
+}
+
+/* Margin correction to align with menu */
+.logo {
+    margin-left: -16px;
+}
+/* menu font color */
+a {
+    color: #FFF;
+}
+
+/* menu font color when hovered on */
+a:hover {
+    color: red;
+}
+
+/* current page font color */
+.selected {
+    font-family: 'courier_newbold';
+    color: red;
+}
+
+.dropdown_general {
+display: none;
+}
+
+.dropdown_content {
+    position: absolute;
+}
+
+.dropdown:hover  .dropdown_general {
+    display: block;
+}
+
+.dropdown:hover .space {
+    display: block;
+} 
+
+.space {
+    height: 28px;
+    display: none;
+}
+
+/*********************
+        CONTENT
+**********************/
+
+
+.content {
+
+    height: 60vh;
+    padding: 0 10%;
+}
+
+
+
+.contact_text_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%
+}
+
+.contact_text {
+ 
+   font-size: 14px;
+    text-align: center;
+    
+}
+
+/*.brand_text p {
+    margin: 2% 0;
+}
+
+.brand_text p:nth-child(1) {
+    margin: 0 0 2% 0;
+}
+
+.brand_text p:nth-child(3) {
+    text-align: right;
+}*/
+
+
+
+.red {
+    color: red;
+}
+
+
+
+
+
+
+
+
+/*********************
+        FOOTER
+**********************/
+
+/* footer padding */
+footer { 
+  padding: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* footer layout */
+.footer_flex_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+/* left side footer layout */
+.footer_left {
+    display: flex;
+    align-items: center;
+    line-height: 1.4;
+}
+/* flex */
+.meet, .contact {
+    display: flex;
+}
+
+/* contact left margin to */
+.contact {
+    margin-left: 30px;
+}
+
+/* backlashes right padding */
+.backslashes {
+    padding: 0 8px 0 0;
+}
+
+/* Courier Bold for spans */
+.bold {
+    font-family: 'courier_newbold';
+}
+
+/* right side footer layout */
+.footer_right {
+    display: flex;
+    align-items: center;
+    margin-right: -12px;
+}
+
+/* facebook & instagram logos middle vertical align*/
+.footer_right img {
+    vertical-align: middle;
+}
