@@ -163,6 +163,7 @@ width: 100%;
     font-family: 'courier_newbold';
     text-align: center;
     line-height: 1.4;
+    color: red !important;
 }
 
 
