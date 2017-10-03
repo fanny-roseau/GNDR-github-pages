@@ -202,7 +202,7 @@ footer {
 /* right side footer layout */
 .footer_right {
     display: flex;
-    align-items: center;
+    align-items: right;
     margin-right: -12px;
 }
 
