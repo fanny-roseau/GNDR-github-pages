@@ -187,9 +187,8 @@ footer {
 
 /* right side footer layout */
 .footer_right {
-    display: flex;
-    align-items: center;
-    margin-right: -12px;
+    position: absolute;
+    right: 20px;
 }
 
 /* facebook & instagram logos middle vertical align*/
