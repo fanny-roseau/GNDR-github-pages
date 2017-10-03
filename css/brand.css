@@ -208,8 +208,8 @@ footer {
 
 /* right side footer layout */
 .footer_right {
-    position: absolute;
-    right: 20px;
+    position: absolute !important;
+    right: 20px !important;
 }
 
 /* facebook & instagram logos middle vertical align*/
