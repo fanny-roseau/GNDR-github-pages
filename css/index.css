@@ -163,6 +163,7 @@ width: 100%;
     font-family: 'courier_newbold';
     text-align: center;
     line-height: 1.4;
+    color: red !important;
 }
 
 
@@ -208,9 +209,8 @@ footer {
 
 /* right side footer layout */
 .footer_right {
-    display: flex;
-    align-items: center;
-    margin-right: -12px;
+    position: absolute !important;
+    right: 20px !important;
 }
 
 /* facebook & instagram logos middle vertical align*/
