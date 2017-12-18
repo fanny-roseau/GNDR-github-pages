@@ -11,8 +11,8 @@
 	<meta property="og:image" content="http://gndr.fr/img/gndr_cover.jpg" />
 	<meta property="og:description" content="GNDR is a fashion label established in Paris. The brand envisions the gender as a non-binary concept." />
 	<meta property="og:site_name" content="GNDR" />
-	<link rel="icon" 
-      type="image/png" 
+	<link rel="icon"
+      type="image/png"
       href="img/favicon.png" />
 	<link rel="stylesheet" type="text/css" href="css/fonts/fonts.css">
 	<link rel="stylesheet" type="text/css" href="css/contact.css">
@@ -26,7 +26,7 @@
 <body>
 	<div class="container">
 		<header>
-			<a href="index"><img src="img/logo.png" style="width: 120px" class="logo"></a>
+			<a href="index.html"><img src="img/logo.png" style="width: 120px" class="logo"></a>
 			<ul>
 				<li><a href="brand" >THE BRAND</a></li>
 				<li class="dropdown">
@@ -47,7 +47,7 @@
 			<div class="contact_text_flex contact_text">
 				<p>sales@gndr.fr</p>
 				<p>press@gndr.fr</p>
-				
+
 			</div>
 		</div>
 
@@ -56,7 +56,7 @@
 				<div class="footer_right">
 					<a href="https://www.facebook.com/GNDR.PARIS/"><img src="img/facebook.png" style="width: 65px"></a>
 					<a href="https://www.instagram.com/g_n_d_r/"><img src="img/instagram.png" style="width: 65px"></a>
-				</div>		
+				</div>
 			</div>
 		</footer>
 	</div>
