@@ -12,7 +12,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    } 
+    }
 
 html, body {
     height: 100%;
@@ -20,8 +20,12 @@ html, body {
 
 body {
     margin: 0;
-    background-color: #000;
-    color: #FFF;
+    background-color: #FFF;
+    background-image: url(../img/bandana.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #000;
     font-family: 'courier_newregular';
     font-size: 12px;
     overflow: hidden;
@@ -59,7 +63,7 @@ a {
 
 /* header padding */
 header {
-    padding: 0 30px;
+    padding: 30px;
     z-index: 3;
 }
 
@@ -69,7 +73,7 @@ header {
 }
 /* menu font color */
 a {
-    color: #FFF;
+    color: #000;
 }
 
 /* menu font color when hovered on */
@@ -91,7 +95,7 @@ display: none;
 
 .dropdown:hover .space {
     display: block;
-} 
+}
 
 .space {
     height: 28px;
@@ -135,7 +139,7 @@ display: none;
 /* img height & widths */
 .img_video {
     height: 100%;
-    width: 100%; 
+    width: 100%;
 
 
 }
@@ -156,7 +160,7 @@ position: absolute;
 }
 
 .disorder {
-width: 100%;  
+width: 100%;
 }
 
 .disorder_container p {
@@ -172,7 +176,7 @@ width: 100%;
 **********************/
 
 /* footer padding */
-footer { 
+footer {
   padding: 50px 30px 30px 30px;
 }
 
@@ -180,7 +184,7 @@ footer {
 .footer_flex_container {
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
 }
 
 /* left side footer layout */
@@ -209,8 +213,8 @@ footer {
 
 /* right side footer layout */
 .footer_right {
-    position: absolute !important;
-    right: 20px !important;
+margin-left: auto;
+margin-right: -10px;
 }
 
 /* facebook & instagram logos middle vertical align*/

@@ -12,7 +12,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    } 
+    }
 
 html, body {
     height: 100%;
@@ -20,8 +20,8 @@ html, body {
 
 body {
 	margin: 0;
-	background-color: #000;
-	color: #FFF;
+	background-color: #FFF;
+	color: #000;
     font-family: 'courier_newregular';
 	font-size: 12px;
     overflow: hidden;
@@ -55,7 +55,7 @@ li {
 
 /* header padding */
 header {
-    padding: 0 30px;
+    padding: 30px;
 }
 
 /* Margin correction to align with menu */
@@ -64,7 +64,7 @@ header {
 }
 /* menu font color */
 a {
-    color: #FFF;
+    color: #000;
 }
 
 /* menu font color when hovered on */
@@ -93,7 +93,7 @@ a:hover {
 
 .space {
     height: 28px;
-    
+
 }
 
 /*********************
@@ -120,7 +120,7 @@ a:hover {
     font-family: 'din_condensedbold';
     font-size: 24px;
     text-align: justify;
-    
+
 }
 
 @media screen and (min-width: 1400px) {
@@ -128,9 +128,9 @@ a:hover {
 .collection_text {
     font-family: 'din_condensedbold';
     font-size: 30px;
-    text-align: justify;   
+    text-align: justify;
 }
-    } 
+    }
 
 .red {
     color: red;
@@ -148,7 +148,7 @@ a:hover {
 **********************/
 
 /* footer padding */
-footer { 
+footer {
   padding: 30px;
 }
 
@@ -156,7 +156,7 @@ footer {
 .footer_flex_container {
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
 }
 
 /* left side footer layout */
@@ -187,8 +187,8 @@ footer {
 
 /* right side footer layout */
 .footer_right {
-    position: absolute;
-    right: 20px;
+margin-left: auto;
+margin-right: -10px;
 }
 
 /* facebook & instagram logos middle vertical align*/
