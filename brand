@@ -11,8 +11,8 @@
 	<meta property="og:image" content="http://gndr.fr/img/gndr_cover.jpg" />
 	<meta property="og:description" content="GNDR is a fashion label established in Paris. The brand envisions the gender as a non-binary concept." />
 	<meta property="og:site_name" content="GNDR" />
-	<link rel="icon" 
-      type="image/png" 
+	<link rel="icon"
+      type="image/png"
       href="img/favicon.png" />
 	<link rel="stylesheet" type="text/css" href="css/fonts/fonts.css">
 	<link rel="stylesheet" type="text/css" href="css/brand.css">
@@ -26,9 +26,9 @@
 <body>
 	<div class="container">
 		<header>
-			<a href="index"><img src="img/logo.png" style="width: 120px" class="logo"></a>
+			<a href="index.html"><img src="img/logo.png" style="width: 120px" class="logo"></a>
 			<ul>
-				<li><a href="" class="selected">THE BRAND</a></li>
+				<li><a href="#" class="selected">THE BRAND</a></li>
 				<li class="dropdown">
 					<a  class="dropbtn">COLLECTIONS</a>
 					<div class="dropdown_general">
@@ -48,7 +48,7 @@
 				<p><span class="red">GNDR</span> IS A LUXURY FASHION LABEL ESTABLISHED IN PARIS. THE BRAND ENVISIONS THE GENDER AS A NON-BINARY CONCEPT. <span class="red">GNDR</span> VIEWS GENDER AS A FACET OF INDIVIDUAL IDENTITY, A SUBJECTIVE VARIABLE THAT CAN ALWAYS VARY. GENDER IS NOT SET-IN-STONE.</p>
 				<p>THUS, THE BRAND DRAWS ITS ESSENCE IN THE GENDERLESS WAVE THAT IS NOW RESHAPING CULTURAL LANDSCAPES GLOBALLY. <span class="red">GNDR</span> IS A BRAND WITH ART RUNNING THROUGH ITS VEINS, A BRAND WHO ONLY TRUSTS ITS PURE AND GENUINE INSTINCTS AS OPPOSED TO NORMS DICTATED BY SOCIETY.</p>
 				<p><span class="red">GNDR</span> IS MORE THAN A FASHION LABEL, <span class="red">GNDR</span> IS A STATEMENT.</p>
-				
+
 			</div>
 		</div>
 
@@ -57,7 +57,7 @@
 				<div class="footer_right">
 					<a href="https://www.facebook.com/GNDR.PARIS/"><img src="img/facebook.png" style="width: 65px"></a>
 					<a href="https://www.instagram.com/g_n_d_r/"><img src="img/instagram.png" style="width: 65px"></a>
-				</div>		
+				</div>
 			</div>
 		</footer>
 	</div>
