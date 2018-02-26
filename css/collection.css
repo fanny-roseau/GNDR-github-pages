@@ -24,7 +24,7 @@ body {
 	color: #000;
     font-family: 'courier_newregular';
 	font-size: 12px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 section, div, ul {
@@ -56,6 +56,8 @@ li {
 /* header padding */
 header {
     padding: 30px;
+    position: fixed;
+    width: 100%;
 }
 
 /* Margin correction to align with menu */
@@ -140,6 +142,20 @@ a:hover {
     text-align: right;
 }
 
+/****
+*/
+
+.image_container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.collection_img {
+  height: 800px;
+  margin: 0 20px;
+}
+
 
 
 
@@ -149,7 +165,7 @@ a:hover {
 
 /* footer padding */
 footer {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   padding:  30px;

@@ -62,6 +62,12 @@ a {
     justify-content: space-between;
 }
 
+video {
+  object-fit: cover;
+    position: absolute;
+    height: 100vh;
+}
+
 /*********************
         HEADER
 **********************/
@@ -78,7 +84,7 @@ header {
 }
 /* menu font color */
 a {
-    color: #000;
+    color: #FFF;
 }
 
 /* menu font color when hovered on */
